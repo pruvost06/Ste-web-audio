@@ -37,7 +37,7 @@ a:hover{
 height:22px ;
 width:22px ;
 position: absolute;
-bottom: 95.0%;
+bottom: 89.95%;
 right: 521px;
 border-radius: 50px;
 background-image: red;
@@ -48,8 +48,8 @@ cursor: pointer;
 .log{
 
   position: absolute;
-  bottom: 95.0%;
-  right: 450px;
+  bottom: 89.65%;
+  right: 445px;
   color: #B22222;
   cursor: pointer;
 }
@@ -66,7 +66,7 @@ color: gray;
 .artiste{
 
   position: absolute;
-  bottom: 94.0%;
+  bottom: 89.0%;
   right: 1500px;
   color: #fff;
   cursor: pointer;
@@ -78,4 +78,20 @@ color: #B22222 ;
 
 }
 
+.logo{
+
+height: 50px;
+
+}
+
 /*-----------haut--page------------*/
+
+/*-----------section1------------*/
+#image4{
+
+height:900px;
+width: 1000px;
+opacity: 25px;
+
+
+}
