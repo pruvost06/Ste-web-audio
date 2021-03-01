@@ -40,7 +40,7 @@ position: absolute;
 bottom: 89.95%;
 right: 521px;
 border-radius: 50px;
-background-image: red;
+background-image: #ff3333;
 cursor: pointer;
 
 }
@@ -55,7 +55,7 @@ cursor: pointer;
 }
 
 .log:hover{
-color: red;
+color: 	 #ff3333;
 }
 
 .hove{
@@ -134,10 +134,10 @@ font-weight: bold;
   padding: 15px;
   height:49px;
   width: 150px;
-  background: #FF0000;
+  background: 	 #ff3333;
   color: #fff;
   list-style: none;
-  border-radius: 8px;
+  border-radius: 1px;
   font-size: 20px;
   font-weight: bold;
   justify-content: center;
@@ -149,6 +149,76 @@ font-weight: bold;
 .button:hover{
 
   background:black;
+  border:1px solid black;
 
 
+}
+
+
+
+
+.wrap .footer{
+
+
+height: 200px;
+width:1903px ;
+background: #160400;
+
+}
+
+
+.now .text{
+
+position: absolute;
+bottom: -20%;
+right: 985px;
+width:400px;
+height:35px ;
+background: black;
+color: white;
+border: 1px solid white;
+}
+
+
+.buton1{
+
+  position: absolute;
+  bottom: -27%;
+  right: 985px;
+  width:400px;
+  background: 	 #ff3333;
+  padding: 8px;
+  color: #fff;
+  font-weight: bold;
+  border:1px solid black;
+
+}
+
+.buton1:hover{
+
+background: black;
+
+}
+
+.copy{
+
+  position: absolute;
+  bottom: -23%;
+  right: 400px;
+  width:400px;
+  color: gray;
+
+
+}
+
+.Get{
+
+
+  position: absolute;
+  bottom: -17%;
+  right: 980px;
+  width:400px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
 }
