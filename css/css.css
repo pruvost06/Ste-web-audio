@@ -155,7 +155,7 @@ font-weight: bold;
 }
 
 
-
+/*----------------footer------------------------*/
 
 .wrap .footer{
 
@@ -180,7 +180,7 @@ border: 1px solid white;
 }
 
 
-.buton1{
+.wrap  .buton1{
 
   position: absolute;
   bottom: -27%;
@@ -200,7 +200,7 @@ background: black;
 
 }
 
-.copy{
+.wrap .copy{
 
   position: absolute;
   bottom: -23%;
@@ -211,7 +211,7 @@ background: black;
 
 }
 
-.Get{
+.wrap .Get{
 
 
   position: absolute;
@@ -222,3 +222,165 @@ background: black;
   font-weight: bold;
   font-size: 17px;
 }
+
+
+
+/*-----------------------social-------------------------------*/
+
+  .fa-facebook{
+
+    position: absolute;
+    bottom: 55%;
+    background:cornflowerblue;
+    color: white;
+     padding: 15px;
+     text-align: center;
+     left: -5px;
+    text-transform: uppercase;
+    position: fixed;
+    height:50px ;
+    width: 50px;
+   border-bottom: 1px solid rgba(0,0,0,.5);
+  box-shadow: 0 0 1px 1px rgba(0,0,0,10);
+  }
+  
+  
+  .fa-facebook:hover{
+    z-index: 10;
+    width: 70px;
+    
+   }
+  
+  
+  
+  .fa-twitter{
+  
+    position: absolute;
+    bottom: 50%;
+    background:deepskyblue;
+      color:white ;
+     padding: 15px;
+     text-align: center;
+     left: -5px;
+     text-transform: uppercase;
+     position: fixed;
+     height:50px ;
+     width: 50px;
+     box-shadow: 0 0 1px 1px rgba(0,0,0,10);
+     box-shadow: 0 0 1px 1px rgba(0,0,0,10);
+  }
+  
+  .fa-twitter:hover{
+    z-index: 10;
+    width: 70px;
+   }
+  
+  
+  
+  .fa-instagram{
+  
+    position: absolute;
+    bottom: 60%;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);;
+    color: white;
+     padding: 15px;
+     width: 100px;
+     text-align: center;
+     left: -5px;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     position: fixed;
+     height:50px ;
+     width: 51px;
+     box-shadow: 0 0 1px 1px rgba(0,0,0,3);
+     box-shadow: 0 0 1px 1px rgba(0,0,0,10);
+  }
+  
+  
+  .fa-instagram:hover{
+    z-index: 10;
+    width: 70px;
+   }
+  
+  
+  
+  
+  
+  .fa-youtube{
+  
+    position: absolute;
+    bottom: 65%;
+    background:rgba(255, 0, 0, 0.836);
+    color:white;
+     padding: 15px;
+    left: -5px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  
+    height:50px ;
+    width: 51px;
+   position: fixed;
+   box-shadow: 0 0 1px 1px rgba(0,0,0,1);
+   box-shadow: 0 0 1px 1px rgba(0,0,0,10);
+  }
+  
+  .fa-youtube:hover{
+    z-index: 10;
+    width: 70px;
+   
+   }
+  
+  
+   .fa-pinterest{
+  
+    position: absolute;
+    bottom: 45%;
+    background:orange;
+    color:white;
+     padding: 15px;
+    left: -5px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  
+    height:50px ;
+    width: 50px;
+   position: fixed;
+   box-shadow: 0 0 1px 1px rgba(0,0,0,3);
+   box-shadow: 0 0 1px 1px rgba(0,0,0,10);
+  
+  }
+  
+  
+  .fa-pinterest:hover{
+    z-index: 10;
+    width: 70px;
+   }
+  
+  
+  .fa-google{
+  
+    position: absolute;
+    bottom: 40%;
+    background:rgba(255, 0, 0, 0.836);
+    color:white;
+     padding: 15px;
+    left: -5px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  
+    height:50px ;
+    width: 50px;
+   position: fixed;
+   box-shadow: 0 0 1px 1px rgba(0,0,0,1);
+   box-shadow: 0 0 1px 1px rgba(0,0,0,10);
+  
+  }
+  
+  .fa-google:hover{
+    z-index: 10;
+    width: 70px;
+   }
+
