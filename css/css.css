@@ -1,3 +1,4 @@
+
 body{
 
 padding: 0;
@@ -5,15 +6,36 @@ margin: 0;
 font-family: 'Roboto', sans-serif;
 }
 .hautpage nav{
-
+  background-color: #160400;
   text-align: center;
+  padding: 20px;
  }
-
- .hautpage nav ul li {
+.hautpage nav ul li {
 list-style: none;
 display: block;
 display: inline;
-margin: 20px;
-padding: 10px;
+margin: 50px;
 
- }
+}
+
+nav a{
+text-decoration: none;
+color: white;
+}
+
+
+a:hover{
+ background: white;
+padding: 15px;
+
+}
+
+.a:active{
+background: orange;
+padding: 15px;
+
+}
+
+
+
+/*-----------haut--page------------*/
