@@ -25,17 +25,57 @@ color: white;
 
 
 a:hover{
- background: white;
-padding: 15px;
-
-}
-
-.a:active{
-background: orange;
-padding: 15px;
+  background: white;
+  padding: 15px;
+  
 
 }
 
 
+.loging{
+
+height:22px ;
+width:22px ;
+position: absolute;
+bottom: 95.0%;
+right: 521px;
+border-radius: 50px;
+background-image: red;
+cursor: pointer;
+
+}
+
+.log{
+
+  position: absolute;
+  bottom: 95.0%;
+  right: 450px;
+  color: #B22222;
+  cursor: pointer;
+}
+
+.log:hover{
+color: red;
+}
+
+.hove{
+
+color: gray;
+}
+
+.artiste{
+
+  position: absolute;
+  bottom: 94.0%;
+  right: 1500px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.artiste:hover{
+
+color: #B22222 ;
+
+}
 
 /*-----------haut--page------------*/
