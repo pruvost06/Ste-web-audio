@@ -87,11 +87,68 @@ height: 50px;
 /*-----------haut--page------------*/
 
 /*-----------section1------------*/
-#image4{
+.section1  #image4{
 
 height:900px;
 width: 1000px;
-opacity: 25px;
+}
+
+
+.section1 .stars{
+
+position: absolute;
+bottom: 55%;
+right: 950px;
+color: white;
+font-size: 80px;
+font-weight: bold;
+
+
+}
+
+.section1  .OUT{
+
+  position: absolute;
+  bottom: 75%;
+  right: 950px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section1  .Experience{
+
+
+  position: absolute;
+  bottom: 50%;
+  right: 980px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.section1  .button{
+
+  position: absolute;
+  bottom: 45%;
+  right: 1200px;
+  padding: 15px;
+  height:49px;
+  width: 150px;
+  background: #FF0000;
+  color: #fff;
+  list-style: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+.button:hover{
+
+  background:black;
 
 
 }
