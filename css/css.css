@@ -687,7 +687,7 @@ audio{
   .logo1{
 
     position: absolute;
-    bottom: -1%;
+    bottom: -0%;
     right: 510px; 
 
 
@@ -697,7 +697,7 @@ audio{
   .logo2{
 
     position: absolute;
-    bottom: -0%;
+    bottom: 1%;
     right: 365px; 
 
 
@@ -709,8 +709,25 @@ audio{
     position: absolute;
     bottom: -0%;
     right: 250px; 
+}
 
+/*-------------------like------------------------------*/
 
-  }
+.like__btn{
 
+background: #0080ff;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  color: #e8efff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+
+  position: absolute;
+  bottom: 40%;
+  right: 100px; 
+
+}
 
